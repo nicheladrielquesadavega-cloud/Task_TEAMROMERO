@@ -1,0 +1,487 @@
+/* tipos de letras */
+.bowlby-one-regular {
+  font-family: "Bowlby One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* tipos de letras */
+
+
+/*comienzo*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*header*/
+
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1, 49, 12);
+    height: 120px;
+    
+   
+}
+ul{
+    display: flex;
+    flex-direction: row;
+   
+    gap: 10px;
+}
+li{
+    display:inline;
+    margin: 40px;
+    color: rgb(84, 83, 83);
+    border-radius: 100px;
+    border-style:solid;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(193, 191, 191, 0.87);
+    font-size: 20px;
+    font-family: "manrope", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+    
+    transition: background-color 0.7s ease;
+
+    gap: 5px;
+}
+li:hover{
+    background-color: aliceblue;
+    
+    
+    
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    margin: 40px;
+
+    transition: transform 0.4s ease;
+}
+.logo:hover{
+    transform: scale(1.2);
+    
+}
+/*finheader*/
+
+
+
+
+
+
+/*1SECCCION*/
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   
+}
+
+
+h1{
+    font-family: "BBH Bartle", sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    margin: 40px;
+    margin-top: 100PX;
+    margin-bottom: 30PX;
+    margin-left: 200PX;
+    color:rgb(219, 216, 216);
+}
+h2{
+    font-family: "manrope", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    margin: 40px;
+    margin-top: 200PX;
+    margin-bottom: 30PX;
+    margin-left: 200PX;
+    
+}
+
+.uno2{
+    margin: 40px;
+    margin-top: 0;
+    margin-bottom: 30PX;
+    margin-left: 200PX;
+    margin-right: 200PX;
+    
+    color:rgb(219, 216, 216);
+    font-family: "manrope", sans-serif;
+}
+
+.logoimg{
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    margin-top: 100PX;
+    margin-bottom: 150PX;
+    margin-left: 100PX;
+    margin-right: 100PX;
+    
+    border: 2px;
+    border-radius: 10px;
+    color: rgb(1, 49, 12);
+    border-style:solid;
+    
+    border-width: 20px;
+
+    transition: transform 2s ease;
+    
+}
+.logoimg:hover{
+    transform:scale(1.05)
+    
+}
+
+.uno{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    
+                 
+    
+    
+    background-image: url("../img/escamas.png");
+    background-size:contain;
+}
+.uno1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+/*FIN1SECCCION*/
+
+
+
+
+
+
+
+
+/*2SECCCION*/
+.dos{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+
+    background-image: url("../img/escamas.png");
+    background-size:contain;
+
+    margin: 0px;
+    margin-top: 0PX;
+   
+}
+.dos1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "bowlby-one-regular", sans-serif;
+    margin: 40px;
+    margin-top: 70PX;
+    margin-bottom: 30PX;
+    margin-left: 100px;
+    margin-right: 100PX;
+    font-size: 60px;
+    color:rgb(219, 216, 216);
+    text-align:center;
+}
+.dos2{
+    margin: 40px;
+    margin-top: 0;
+    margin-bottom: 100PX;
+    
+    
+    font-size: 24px;
+    color:rgb(219, 216, 216);
+    text-align:center;
+    
+    font-weight: bold; /* Pone el texto en negrita (también puedes usar un valor numérico como 700) [0.1.1, 0.1.3] */
+    font-style: italic
+    
+}
+.container{
+    display:flex;
+    flex-direction: space-between;
+    align-items: center;
+    width: 85%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    font-family: "manrope", sans-serif;
+    font-size: 10px;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 0PX;
+    
+    color:rgb(232, 232, 232);
+    gap: 40px;
+
+    
+}
+.img2section{
+    width: 600px;
+    height: 600px;
+    margin: 50px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 100PX;
+    margin-right: 100PX;
+    
+    border: 2px;
+    border-radius: 10px;
+    border-color: rgb(12, 38, 12);
+    border-style:solid;
+    border-width: 20px;
+
+    transition: transform 0.4s ease;
+}
+.img2section:hover{
+    transform:scale(1.1)
+    
+}
+.diferent{
+    margin: 40px;
+    margin-top: 70PX;
+    margin-bottom: 30PX;
+    margin-left: 0px;
+    margin-right: 50PX;
+    font-size: 15px;
+    color:rgb(232, 232, 232);
+    text-align:center;
+    background-color: rgb(12, 38, 12);
+    border: 10px;
+    border-radius: 10px;
+    border-color: rgb(176, 193, 176);
+    border-width: 5px;
+    border-style:solid;
+    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: transform 0.4s ease;
+    
+}
+.diferent:hover{
+    transform: scale(1.5);
+    
+}
+.mision{
+    margin: 40px;
+    margin-top: 70PX;
+    margin-bottom: 30PX;
+    margin-left: 50px;
+    margin-right: 50PX;
+    font-size: 15px;
+    color:rgb(232, 232, 232);
+    text-align:center;
+    background-color: rgb(12, 38, 12);
+    border: 10px;
+    border-radius: 10px;
+    border-color: rgb(176, 193, 176);
+    border-width: 5px;
+    border-style:solid;
+    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: transform 0.4s ease;
+    
+    
+}
+.mision:hover{
+    transform: scale(1.5);
+    
+}
+.vision{
+    margin: 40px;
+    margin-top: 70PX;
+    margin-bottom: 30PX;
+    margin-left: 50px;
+    margin-right: 0PX;
+    font-size: 15px;
+    color:rgb(232, 232, 232);
+    text-align:center;
+    background-color: rgb(12, 38, 12);
+    border: 10px;
+    border-radius: 10px;
+    border-color: rgb(176, 193, 176);
+    border-width: 5px;
+    border-style:solid;
+    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: transform 0.4s ease;
+}
+.vision:hover{
+    transform: scale(1.5);
+    
+}
+/*FIN2SECCCION*/
+
+
+
+
+
+
+
+/*3SECCCION*/
+.tres{
+    
+
+    background-image: url("../img/escamas.png");
+    background-size: cover;
+
+}
+    
+    
+
+.installations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 0PX;
+    margin-bottom: 200PX;
+    gap: 30px;
+    column-gap: 50px;
+    
+    
+    
+    color:rgb(232, 232, 232);
+    
+}
+
+.installations-title{
+    font-family: "manrope", sans-serif;
+    font-size: 85px;
+    font-style: normal;
+    margin: 40px;
+    margin-top: 00PX;
+    margin-bottom: 30PX;
+    margin-left: 200PX;
+    margin-right: 200PX;
+    text-align:center;
+    
+    
+}
+
+.install-images{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    
+    transition: transform 0.4s ease;
+    
+   
+}
+
+.install-images:hover {
+    transform: scale(1.1);
+    
+}
+
+.install-img{
+    width: 250px;
+    height: 350px;
+    
+    
+    
+    border: 2px;
+    border-radius: 10px;
+    color: rgb(1, 49, 12);
+    border-style:groove;
+    
+    border-width: 10px;
+
+    transition: transform 0.4s ease;
+
+}
+.install-img:hover{
+    transform:perspective(90px) rotateY(2deg);
+    
+}
+/*FIN3SECCCION*/
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1, 49, 12);
+    height: 150px;
+}
+.text-footer{
+    margin: 60px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 30px;
+    color: rgb(42, 43, 42);
+    background-color: rgb(229, 234, 226);
+    border: 2px;
+    border-radius: 200px;
+    padding: 20px;
+
+    transition: transform 0.4s;
+}
+.text-footer:hover{
+    transform: scale(1.1);
+}
+.logo-footer{
+    width: 200px;
+    height: 100px;
+    gap: 50px;
+    margin: 50px;
+
+    transition: transform 0.4s;
+}
+.logo-footer:hover{
+    transform: scale(1.1);
+}
+/*FINFOOTER*/
