@@ -18,81 +18,89 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .fjalla-one-regular {
   font-family: "Fjalla One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 /* tipos de letras */
 
 
 /*START*/
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 
 /*header*/
 
-header{
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(1, 49, 12);
-    height: 120px;
-    
-   
-}
-ul{
-    display: flex;
-    flex-direction: row;
-   
-    gap: 10px;
-}
-li{
-    display:inline;
-    margin: 40px;
-    color: rgb(84, 83, 83);
-    border-radius: 100px;
-    border-style:solid;
-    padding: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: rgba(193, 191, 191, 0.87);
-    font-size: 20px;
-    font-family: "manrope", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-   
-    
-    transition: background-color 0.7s ease;
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(1, 49, 12);
+  height: 120px;
 
-    gap: 5px;
-}
-li:hover{
-    background-color: aliceblue;
-    
-    
-    
-}
-.logo{
-    width: 90px;
-    height: 90px;
-    margin: 40px;
 
-    transition: transform 0.4s ease;
 }
-.logo:hover{
-    transform: scale(1.2);
-    
+
+ul {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
 }
+
+li {
+  display: inline;
+  margin: 40px;
+  color: rgb(84, 83, 83);
+  border-radius: 100px;
+  border-style: solid;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgba(193, 191, 191, 0.87);
+  font-size: 20px;
+  font-family: "manrope", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+  transition: background-color 0.7s ease;
+
+  gap: 5px;
+}
+
+li:hover {
+  background-color: aliceblue;
+
+
+
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  margin: 40px;
+
+  transition: transform 0.4s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+
+}
+
 /*ENDheader*/
 
 
@@ -101,88 +109,91 @@ li:hover{
 
 
 /*1SECTION*/
-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-   
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
 }
 
 
-h1{
-    font-family: "BBH Bartle", sans-serif;
-    font-size: 100px;
-    font-style: normal;
-    margin: 40px;
-    margin-top: 100PX;
-    margin-bottom: 30PX;
-    margin-left: 200PX;
-    color:rgb(219, 216, 216);
-}
-h2{
-    font-family: "manrope", sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    margin: 40px;
-    margin-top: 200PX;
-    margin-bottom: 30PX;
-    margin-left: 200PX;
-    
+h1 {
+  font-family: "BBH Bartle", sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  margin: 40px;
+  margin-top: 100PX;
+  margin-bottom: 30PX;
+  margin-left: 200PX;
+  color: rgb(219, 216, 216);
 }
 
-.one2{
-    margin: 40px;
-    margin-top: 0;
-    margin-bottom: 30PX;
-    margin-left: 200PX;
-    margin-right: 200PX;
-    
-    color:rgb(219, 216, 216);
-    font-family: "manrope", sans-serif;
+h2 {
+  font-family: "manrope", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  margin: 40px;
+  margin-top: 200PX;
+  margin-bottom: 30PX;
+  margin-left: 200PX;
+
 }
 
-.logoimg{
-    width: 500px;
-    height: 500px;
-    margin: 50px;
-    margin-top: 100PX;
-    margin-bottom: 150PX;
-    margin-left: 100PX;
-    margin-right: 100PX;
-    
-    border: 2px;
-    border-radius: 10px;
-    color: rgb(1, 49, 12);
-    border-style:solid;
-    
-    border-width: 20px;
+.one2 {
+  margin: 40px;
+  margin-top: 0;
+  margin-bottom: 30PX;
+  margin-left: 200PX;
+  margin-right: 200PX;
 
-    transition: transform 2s ease;
-    
-}
-.logoimg:hover{
-    transform:scale(1.05)
-    
+  color: rgb(219, 216, 216);
+  font-family: "manrope", sans-serif;
 }
 
-.one{
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    
-                 
-    
-    
-    background-image: url("../img/escamas.png");
-    background-size:contain;
+.logoimg {
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+  margin-top: 100PX;
+  margin-bottom: 150PX;
+  margin-left: 100PX;
+  margin-right: 100PX;
+
+  border: 2px;
+  border-radius: 10px;
+  color: rgb(1, 49, 12);
+  border-style: solid;
+
+  border-width: 20px;
+
+  transition: transform 2s ease;
+
 }
-.one1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+
+.logoimg:hover {
+  transform: scale(1.05)
 }
+
+.one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+
+
+  background-image: url("../img/escamas.png");
+  background-size: contain;
+}
+
+.one1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 /*END1SECTION*/
 
 
@@ -193,166 +204,177 @@ h2{
 
 
 /*2SECTION*/
-.two{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
+.two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
-    background-image: url("../img/escamas.png");
-    background-size:contain;
+  background-image: url("../img/escamas.png");
+  background-size: contain;
 
-    margin: 0px;
-    margin-top: 0PX;
-   
-}
-.two1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: "bowlby-one-regular", sans-serif;
-    margin: 40px;
-    margin-top: 70PX;
-    margin-bottom: 30PX;
-    margin-left: 100px;
-    margin-right: 100PX;
-    font-size: 60px;
-    color:rgb(219, 216, 216);
-    text-align:center;
-}
-.two2{
-    margin: 40px;
-    margin-top: 0;
-    margin-bottom: 100PX;
-    
-    
-    font-size: 24px;
-    color:rgb(219, 216, 216);
-    text-align:center;
-    
-    font-weight: bold; /* Pone el texto en negrita (también puedes usar un valor numérico como 700) [0.1.1, 0.1.3] */
-    font-style: italic
-    
-}
-.container{
-    display:flex;
-    flex-direction: space-between;
-    align-items: center;
-    width: 85%;
-    padding: 0 30px;
-    box-sizing: border-box;
-    font-family: "manrope", sans-serif;
-    font-size: 10px;
-    margin: 100px;
-    margin-top: 50px;
-    margin-bottom: 0PX;
-    
-    color:rgb(232, 232, 232);
-    gap: 40px;
+  margin: 0px;
+  margin-top: 0PX;
 
-    
 }
-.img2section{
-    width: 600px;
-    height: 600px;
-    margin: 50px;
-    margin-top: 40px;
-    margin-bottom: 0;
-    margin-left: 100PX;
-    margin-right: 100PX;
-    
-    border: 2px;
-    border-radius: 10px;
-    border-color: rgb(12, 38, 12);
-    border-style:solid;
-    border-width: 20px;
 
-    transition: transform 0.4s ease;
+.two1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "bowlby-one-regular", sans-serif;
+  margin: 40px;
+  margin-top: 70PX;
+  margin-bottom: 30PX;
+  margin-left: 100px;
+  margin-right: 100PX;
+  font-size: 60px;
+  color: rgb(219, 216, 216);
+  text-align: center;
 }
-.img2section:hover{
-    transform:scale(1.1)
-    
+
+.two2 {
+  margin: 40px;
+  margin-top: 0;
+  margin-bottom: 100PX;
+
+
+  font-size: 24px;
+  color: rgb(219, 216, 216);
+  text-align: center;
+
+  font-weight: bold;
+  /* Pone el texto en negrita (también puedes usar un valor numérico como 700) [0.1.1, 0.1.3] */
+  font-style: italic
 }
-.diferent{
-    margin: 40px;
-    margin-top: 70PX;
-    margin-bottom: 30PX;
-    margin-left: 0px;
-    margin-right: 50PX;
-    font-size: 15px;
-    color:rgb(232, 232, 232);
-    text-align:center;
-    background-color: rgb(12, 38, 12);
-    border: 10px;
-    border-radius: 10px;
-    border-color: rgb(176, 193, 176);
-    border-width: 5px;
-    border-style:solid;
-    padding: 25px;
-    padding-top: 20px;
-    padding-bottom: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
-    transition: transform 0.4s ease;
-    
+
+.container {
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
+  width: 85%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  font-family: "manrope", sans-serif;
+  font-size: 10px;
+  margin: 100px;
+  margin-top: 50px;
+  margin-bottom: 0PX;
+
+  color: rgb(232, 232, 232);
+  gap: 40px;
+
+
 }
-.diferent:hover{
-    transform: scale(1.5);
-    
+
+.img2section {
+  width: 600px;
+  height: 600px;
+  margin: 50px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  margin-left: 100PX;
+  margin-right: 100PX;
+
+  border: 2px;
+  border-radius: 10px;
+  border-color: rgb(12, 38, 12);
+  border-style: solid;
+  border-width: 20px;
+
+  transition: transform 0.4s ease;
 }
-.mision{
-    margin: 40px;
-    margin-top: 70PX;
-    margin-bottom: 30PX;
-    margin-left: 50px;
-    margin-right: 50PX;
-    font-size: 15px;
-    color:rgb(232, 232, 232);
-    text-align:center;
-    background-color: rgb(12, 38, 12);
-    border: 10px;
-    border-radius: 10px;
-    border-color: rgb(176, 193, 176);
-    border-width: 5px;
-    border-style:solid;
-    padding: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
-    transition: transform 0.4s ease;
-    
-    
+
+.img2section:hover {
+  transform: scale(1.1)
 }
-.mision:hover{
-    transform: scale(1.5);
-    
+
+.diferent {
+  margin: 40px;
+  margin-top: 70PX;
+  margin-bottom: 30PX;
+  margin-left: 0px;
+  margin-right: 50PX;
+  font-size: 15px;
+  color: rgb(232, 232, 232);
+  text-align: center;
+  background-color: rgb(12, 38, 12);
+  border: 10px;
+  border-radius: 10px;
+  border-color: rgb(176, 193, 176);
+  border-width: 5px;
+  border-style: solid;
+  padding: 25px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: transform 0.4s ease;
+
 }
-.vision{
-    margin: 40px;
-    margin-top: 70PX;
-    margin-bottom: 30PX;
-    margin-left: 50px;
-    margin-right: 0PX;
-    font-size: 15px;
-    color:rgb(232, 232, 232);
-    text-align:center;
-    background-color: rgb(12, 38, 12);
-    border: 10px;
-    border-radius: 10px;
-    border-color: rgb(176, 193, 176);
-    border-width: 5px;
-    border-style:solid;
-    padding: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
-    transition: transform 0.4s ease;
+
+.diferent:hover {
+  transform: scale(1.5);
+
 }
-.vision:hover{
-    transform: scale(1.5);
-    
+
+.mision {
+  margin: 40px;
+  margin-top: 70PX;
+  margin-bottom: 30PX;
+  margin-left: 50px;
+  margin-right: 50PX;
+  font-size: 15px;
+  color: rgb(232, 232, 232);
+  text-align: center;
+  background-color: rgb(12, 38, 12);
+  border: 10px;
+  border-radius: 10px;
+  border-color: rgb(176, 193, 176);
+  border-width: 5px;
+  border-style: solid;
+  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: transform 0.4s ease;
+
+
 }
+
+.mision:hover {
+  transform: scale(1.5);
+
+}
+
+.vision {
+  margin: 40px;
+  margin-top: 70PX;
+  margin-bottom: 30PX;
+  margin-left: 50px;
+  margin-right: 0PX;
+  font-size: 15px;
+  color: rgb(232, 232, 232);
+  text-align: center;
+  background-color: rgb(12, 38, 12);
+  border: 10px;
+  border-radius: 10px;
+  border-color: rgb(176, 193, 176);
+  border-width: 5px;
+  border-style: solid;
+  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: transform 0.4s ease;
+}
+
+.vision:hover {
+  transform: scale(1.5);
+
+}
+
 /*END2SECTION*/
 
 
@@ -362,84 +384,86 @@ h2{
 
 
 /*3SECTION*/
-.three{
-    
+.three {
 
-    background-image: url("../img/escamas.png");
-    background-size: cover;
+
+  background-image: url("../img/escamas.png");
+  background-size: cover;
 
 }
-    
-    
 
-.installations{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0px;
-    margin-top: 0PX;
-    margin-bottom: 200PX;
-    gap: 30px;
-    column-gap: 50px;
-    
-    
-    
-    color:rgb(232, 232, 232);
-    
+
+
+.installations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  margin-top: 0PX;
+  margin-bottom: 200PX;
+  gap: 30px;
+  column-gap: 50px;
+
+
+
+  color: rgb(232, 232, 232);
+
 }
 
-.installations-title{
-    font-family: "manrope", sans-serif;
-    font-size: 85px;
-    font-style: normal;
-    margin: 40px;
-    margin-top: 00PX;
-    margin-bottom: 30PX;
-    margin-left: 200PX;
-    margin-right: 200PX;
-    text-align:center;
-    
-    
+.installations-title {
+  font-family: "manrope", sans-serif;
+  font-size: 85px;
+  font-style: normal;
+  margin: 40px;
+  margin-top: 00PX;
+  margin-bottom: 30PX;
+  margin-left: 200PX;
+  margin-right: 200PX;
+  text-align: center;
+
+
 }
 
-.install-images{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.install-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 
-    
-    transition: transform 0.4s ease;
-    
-   
+
+  transition: transform 0.4s ease;
+
+
 }
 
 .install-images:hover {
-    transform: scale(1.1);
-    
-}
-
-.install-img{
-    width: 250px;
-    height: 350px;
-    
-    
-    
-    border: 2px;
-    border-radius: 10px;
-    color: rgb(1, 49, 12);
-    border-style:groove;
-    
-    border-width: 10px;
-
-    transition: transform 0.4s ease;
+  transform: scale(1.1);
 
 }
-.install-img:hover{
-    transform:perspective(90px) rotateY(2deg);
-    
+
+.install-img {
+  width: 250px;
+  height: 350px;
+
+
+
+  border: 2px;
+  border-radius: 10px;
+  color: rgb(1, 49, 12);
+  border-style: groove;
+
+  border-width: 10px;
+
+  transition: transform 0.4s ease;
+
 }
+
+.install-img:hover {
+  transform: perspective(90px) rotateY(2deg);
+
+}
+
 /*END3SECTION*/
 
 
@@ -450,40 +474,45 @@ h2{
 
 
 /*FOOTER*/
-footer{
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(1, 49, 12);
-    height: 150px;
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(1, 49, 12);
+  height: 150px;
 }
-.text-footer{
-    margin: 60px;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 30px;
-    color: rgb(42, 43, 42);
-    background-color: rgb(229, 234, 226);
-    border: 2px;
-    border-radius: 200px;
-    padding: 20px;
 
-    transition: transform 0.4s;
-}
-.text-footer:hover{
-    transform: scale(1.1);
-}
-.logo-footer{
-    width: 200px;
-    height: 100px;
-    gap: 50px;
-    margin: 50px;
+.text-footer {
+  margin: 60px;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 30px;
+  color: rgb(42, 43, 42);
+  background-color: rgb(229, 234, 226);
+  border: 2px;
+  border-radius: 200px;
+  padding: 20px;
 
-    transition: transform 0.4s;
+  transition: transform 0.4s;
 }
-.logo-footer:hover{
-    transform: scale(1.1);
+
+.text-footer:hover {
+  transform: scale(1.1);
 }
+
+.logo-footer {
+  width: 200px;
+  height: 100px;
+  gap: 50px;
+  margin: 50px;
+
+  transition: transform 0.4s;
+}
+
+.logo-footer:hover {
+  transform: scale(1.1);
+}
+
 /*ENDFOOTER*/
 
 
@@ -502,7 +531,7 @@ footer{
     font-size: 18px;
   }
 
-  
+
 
 
   .container {
@@ -576,7 +605,8 @@ footer{
     font-size: 14px;
   }
 
-  .one,.two {
+  .one,
+  .two {
     flex-direction: column;
     align-items: center;
   }
@@ -636,14 +666,18 @@ footer{
     gap: 20px;
   }
 
-  .diferent,.mision,.vision {
+  .diferent,
+  .mision,
+  .vision {
     flex: 1 1 40%;
     margin: 10px 0;
     padding: 20px;
     font-size: 14px;
   }
 
-  .diferent:hover,.mision:hover,.vision:hover {
+  .diferent:hover,
+  .mision:hover,
+  .vision:hover {
     transform: scale(1.03);
   }
 
@@ -727,12 +761,15 @@ footer{
     font-size: 12px;
   }
 
-  section,.one,.two {
+  section,
+  .one,
+  .two {
     flex-direction: column;
     align-items: center;
   }
 
-  .one1,.two1 {
+  .one1,
+  .two1 {
     width: 100%;
     align-items: center;
     margin: 15px 0;
@@ -795,15 +832,22 @@ footer{
     gap: 20px;
   }
 
-  .diferent,.mision,.vision {
+  .diferent,
+  .mision,
+  .vision {
     width: 100%;
     margin: 0;
     padding: 20px;
     font-size: 14px;
   }
 
-  .diferent:hover,.mision:hover,.vision:hover,.img2section:hover,.logoimg:hover,.install-images:hover {
-    transform:scale(1.1);
+  .diferent:hover,
+  .mision:hover,
+  .vision:hover,
+  .img2section:hover,
+  .logoimg:hover,
+  .install-images:hover {
+    transform: scale(1.1);
   }
 
   .installations {
@@ -840,7 +884,7 @@ footer{
     gap: 10px;
   }
 
-  footer > div:first-child {
+  footer>div:first-child {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -858,5 +902,3 @@ footer{
     font-size: 20px;
   }
 }
-
-
