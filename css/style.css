@@ -485,3 +485,421 @@ footer{
     transform: scale(1.1);
 }
 /*FINFOOTER*/
+
+
+
+
+/* ORDENADOR: 992px EN ADELANTE  */
+
+@media screen and (min-width: 992px) {
+
+  header {
+    padding: 0 30px;
+  }
+
+  li {
+    margin: 10px;
+    font-size: 18px;
+  }
+
+  .uno {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 70px;
+    margin: 0px;
+  }
+
+  .uno2 {
+    margin: 40px;
+    font-size: 20px;
+  }
+
+  .logoimg {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    
+    margin: 120px;
+  }
+
+  .img2section {
+    width: 450px;
+    height: 450px;
+    max-width: 100%;
+    object-fit: cover;
+    margin: 30px auto;
+  }
+
+  .container {
+    width: 90%;
+    margin: 50px auto 0;
+    padding: 0 20px;
+    gap: 25px;
+    flex-direction: row;
+  }
+
+  .diferent,
+  .mision,
+  .vision {
+    margin: 20px 0;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .installations-title {
+    font-size: 65px;
+    margin: 20px;
+  }
+
+  .install-images {
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+
+  .install-img {
+    width: 200px;
+    height: 280px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .logo-footer {
+    width: 150px;
+    height: auto;
+    margin: 20px;
+  }
+}
+
+
+
+/* TABLET: 769px A 991px         */
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+  header {
+    height: auto;
+    min-height: 100px;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+  }
+
+  ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  li {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .uno,
+  .dos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .uno1 {
+    width: 100%;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: 35px 20px 20px;
+  }
+
+  .uno2 {
+    margin: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .logoimg {
+    width: 350px;
+    height: 350px;
+    max-width: 85%;
+    object-fit: cover;
+    margin: 25px auto 60px;
+  }
+
+  .dos1 {
+    width: 100%;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .dos2 {
+    margin: 20px;
+    font-size: 18px;
+  }
+
+  .img2section {
+    display: block;
+    width: 400px;
+    height: 400px;
+    max-width: 85%;
+    object-fit: cover;
+    margin: 30px auto;
+  }
+
+  .container {
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .diferent,
+  .mision,
+  .vision {
+    flex: 1 1 40%;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .diferent:hover,
+  .mision:hover,
+  .vision:hover {
+    transform: scale(1.03);
+  }
+
+  .installations {
+    margin-bottom: 80px;
+    gap: 20px;
+  }
+
+  .installations-title {
+    font-size: 45px;
+    margin: 20px 10px;
+  }
+
+  .install-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 15px;
+  }
+
+  .install-img {
+    width: 180px;
+    height: 250px;
+    max-width: 45%;
+    object-fit: cover;
+  }
+
+  .install-images:hover {
+    transform: none;
+  }
+
+  footer {
+    height: auto;
+    min-height: 120px;
+    padding: 15px;
+  }
+
+  .logo-footer {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .text-footer {
+    margin: 15px;
+    padding: 15px;
+    font-size: 22px;
+  }
+}
+
+
+
+/* MÓVIL: HASTA 768px            */
+
+@media screen and (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 15px 10px;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+  }
+
+  ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 0;
+  }
+
+  li {
+    margin: 0;
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  section,
+  .uno,
+  .dos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .uno1,
+  .dos1 {
+    width: 100%;
+    align-items: center;
+    margin: 15px 0;
+  }
+
+  h1 {
+    font-size: clamp(28px, 7vw, 42px);
+    text-align: center;
+    margin: 30px 15px 20px;
+    overflow-wrap: anywhere;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin: 30px 15px;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .uno2 {
+    margin: 10px 20px 25px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .logoimg {
+    display: block;
+    width: 300px;
+    height: 300px;
+    max-width: 85vw;
+    object-fit: cover;
+    margin: 15px auto 50px;
+    border-width: 10px;
+  }
+
+  .dos2 {
+    margin: 15px;
+    font-size: 16px;
+  }
+
+  .img2section {
+    display: block;
+    width: 300px;
+    height: 300px;
+    max-width: 85vw;
+    object-fit: cover;
+    margin: 25px auto;
+    border-width: 10px;
+  }
+
+  .container {
+    width: 90%;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 20px auto;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .diferent,
+  .mision,
+  .vision {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .diferent:hover,
+  .mision:hover,
+  .vision:hover,
+  .img2section:hover,
+  .logoimg:hover,
+  .install-images:hover {
+    transform: none;
+  }
+
+  .installations {
+    margin-bottom: 50px;
+    gap: 15px;
+  }
+
+  .installations-title {
+    font-size: clamp(25px, 6vw, 38px);
+    margin: 20px 10px;
+  }
+
+  .install-images {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 10px;
+  }
+
+  .install-img {
+    width: calc(50% - 12px);
+    height: 200px;
+    max-width: 100%;
+    object-fit: cover;
+    border-width: 5px;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding: 20px 10px;
+    gap: 10px;
+  }
+
+  footer > div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logo-footer {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .text-footer {
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 20px;
+  }
+}
+
+
