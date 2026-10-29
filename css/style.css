@@ -26,7 +26,7 @@
 /* tipos de letras */
 
 
-/*comienzo*/
+/*START*/
 
 * {
     margin: 0;
@@ -93,14 +93,14 @@ li:hover{
     transform: scale(1.2);
     
 }
-/*finheader*/
+/*ENDheader*/
 
 
 
 
 
 
-/*1SECCCION*/
+/*1SECTION*/
 section{
     display: flex;
     flex-direction: row;
@@ -131,7 +131,7 @@ h2{
     
 }
 
-.uno2{
+.one2{
     margin: 40px;
     margin-top: 0;
     margin-bottom: 30PX;
@@ -166,7 +166,7 @@ h2{
     
 }
 
-.uno{
+.one{
     display: flex;
     flex-direction:row;
     align-items: center;
@@ -177,13 +177,13 @@ h2{
     background-image: url("../img/escamas.png");
     background-size:contain;
 }
-.uno1{
+.one1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     
 }
-/*FIN1SECCCION*/
+/*END1SECTION*/
 
 
 
@@ -192,8 +192,8 @@ h2{
 
 
 
-/*2SECCCION*/
-.dos{
+/*2SECTION*/
+.two{
     display: flex;
     flex-direction:row;
     justify-content: center;
@@ -205,7 +205,7 @@ h2{
     margin-top: 0PX;
    
 }
-.dos1{
+.two1{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,7 +219,7 @@ h2{
     color:rgb(219, 216, 216);
     text-align:center;
 }
-.dos2{
+.two2{
     margin: 40px;
     margin-top: 0;
     margin-bottom: 100PX;
@@ -353,7 +353,7 @@ h2{
     transform: scale(1.5);
     
 }
-/*FIN2SECCCION*/
+/*END2SECTION*/
 
 
 
@@ -361,8 +361,8 @@ h2{
 
 
 
-/*3SECCCION*/
-.tres{
+/*3SECTION*/
+.three{
     
 
     background-image: url("../img/escamas.png");
@@ -440,7 +440,7 @@ h2{
     transform:perspective(90px) rotateY(2deg);
     
 }
-/*FIN3SECCCION*/
+/*END3SECTION*/
 
 
 
@@ -484,12 +484,12 @@ footer{
 .logo-footer:hover{
     transform: scale(1.1);
 }
-/*FINFOOTER*/
+/*ENDFOOTER*/
 
 
 
 
-/* ORDENADOR: 992px EN ADELANTE  */
+/* COMPUTER: FOR 992px*/
 
 @media screen and (min-width: 992px) {
 
@@ -502,36 +502,8 @@ footer{
     font-size: 18px;
   }
 
-  .uno {
-    flex-direction: row;
-    align-items: center;
-  }
+  
 
-  h1 {
-    font-size: 70px;
-    margin: 0px;
-  }
-
-  .uno2 {
-    margin: 40px;
-    font-size: 20px;
-  }
-
-  .logoimg {
-    width: 400px;
-    height: 400px;
-    max-width: 100%;
-    
-    margin: 120px;
-  }
-
-  .img2section {
-    width: 450px;
-    height: 450px;
-    max-width: 100%;
-    object-fit: cover;
-    margin: 30px auto;
-  }
 
   .container {
     width: 90%;
@@ -575,7 +547,7 @@ footer{
 
 
 
-/* TABLET: 769px A 991px         */
+/* TABLET: 769px TO 991px*/
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
 
@@ -604,13 +576,12 @@ footer{
     font-size: 14px;
   }
 
-  .uno,
-  .dos {
+  .one,.two {
     flex-direction: column;
     align-items: center;
   }
 
-  .uno1 {
+  .one1 {
     width: 100%;
     align-items: center;
   }
@@ -621,7 +592,7 @@ footer{
     margin: 35px 20px 20px;
   }
 
-  .uno2 {
+  .one2 {
     margin: 15px 30px;
     text-align: center;
     font-size: 18px;
@@ -635,13 +606,13 @@ footer{
     margin: 25px auto 60px;
   }
 
-  .dos1 {
+  .two1 {
     width: 100%;
     align-items: center;
     margin: 20px 0;
   }
 
-  .dos2 {
+  .two2 {
     margin: 20px;
     font-size: 18px;
   }
@@ -665,18 +636,14 @@ footer{
     gap: 20px;
   }
 
-  .diferent,
-  .mision,
-  .vision {
+  .diferent,.mision,.vision {
     flex: 1 1 40%;
     margin: 10px 0;
     padding: 20px;
     font-size: 14px;
   }
 
-  .diferent:hover,
-  .mision:hover,
-  .vision:hover {
+  .diferent:hover,.mision:hover,.vision:hover {
     transform: scale(1.03);
   }
 
@@ -729,7 +696,7 @@ footer{
 
 
 
-/* MÓVIL: HASTA 768px            */
+/* MOBILE: 768px*/
 
 @media screen and (max-width: 768px) {
 
@@ -760,15 +727,12 @@ footer{
     font-size: 12px;
   }
 
-  section,
-  .uno,
-  .dos {
+  section,.one,.two {
     flex-direction: column;
     align-items: center;
   }
 
-  .uno1,
-  .dos1 {
+  .one1,.two1 {
     width: 100%;
     align-items: center;
     margin: 15px 0;
@@ -791,7 +755,7 @@ footer{
     text-align: center;
   }
 
-  .uno2 {
+  .one2 {
     margin: 10px 20px 25px;
     text-align: center;
     font-size: 16px;
@@ -807,7 +771,7 @@ footer{
     border-width: 10px;
   }
 
-  .dos2 {
+  .two2 {
     margin: 15px;
     font-size: 16px;
   }
@@ -831,22 +795,15 @@ footer{
     gap: 20px;
   }
 
-  .diferent,
-  .mision,
-  .vision {
+  .diferent,.mision,.vision {
     width: 100%;
     margin: 0;
     padding: 20px;
     font-size: 14px;
   }
 
-  .diferent:hover,
-  .mision:hover,
-  .vision:hover,
-  .img2section:hover,
-  .logoimg:hover,
-  .install-images:hover {
-    transform: none;
+  .diferent:hover,.mision:hover,.vision:hover,.img2section:hover,.logoimg:hover,.install-images:hover {
+    transform:scale(1.1);
   }
 
   .installations {
